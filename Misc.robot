@@ -11,6 +11,15 @@ Resource    	Steps.robot
 Comments go here 
 
 *** Test Cases *** 
-User Logs in 
+Log in 
     Open browser to website 
     Enter credentials 
+    
+Click Playlists
+	Playlists     
+	
+Click Cara Dillon
+	Cara Dillon
+
+Click Shuffle
+    Shuffle   

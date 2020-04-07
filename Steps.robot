@@ -12,9 +12,19 @@ Open browser to website
 Enter credentials
 	Wait until element is visible	${GUEST} 
 	Click Element	${GUEST}
-	#Wait until element is visible	${PASSFIELD} 
+	#Wait until element is visible	${PASSFIELD}
 	#Click Element	${PASSFIELD}
 	Input Text	//*[@id="txtManualPassword"]	${LOCAL_PASS} 
 	Click button	${SIGN_IN}
-	Wait until element is visible	${PLAYLISTS}	timeout=10
+	
+Playlists
+	Sleep	8
+	Wait until element is visible	${PLAYLISTS}	
 	Click Element	${PLAYLISTS}
+	
+Cara Dillon
+	Wait until element is visible	${CDILLON} 
+	Click element	${CDILLON} 
+Shuffle
+    Wait until element is visible    ${SHUFFLE}
+    Click element    ${SHUFFLE}
