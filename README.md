@@ -8,7 +8,7 @@ The IP address listed in the file is local to my network, as is the password (My
 
 Code is being written using Eclipse IDE and the following libraries are installed using RED (See https://marketplace.eclipse.org/category/free-tagging/robotframework): 
 - SeleniumLibrary
-- Robot Framework 3.1.2 (Python 3.7.7) 
-- Zoomba (referenced, but not utilized yet) 
+- Robot Framework 3.2rc` (Python 3.7.7) 
+- RED
 
 While I realize the way these files are set up/organized is probably not ideal, they work. And considering I have zero formal training, I think that's pretty amazing and goes to show just how easy Robot Framework is to use.
