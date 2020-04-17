@@ -8,7 +8,7 @@ Resource    	Steps.robot
 *** Keywords ***
  
 *** Comments *** 
-Comments go here 
+Comments would go here if I had any (: 
 
 *** Test Cases *** 
 Log in 
@@ -18,8 +18,8 @@ Log in
 Click Playlists
 	Playlists     
 	
-Click Cara Dillon
-	Cara Dillon
+Click Promo playlist 
+	Promo
 
-Click Shuffle
-    Shuffle   
+Click Shuffle control 
+    Shuffle
