@@ -1,5 +1,5 @@
 *** Variables ***
-${BROWSER_GC}       Chrome	
+${BROWSER_GC}       Chrome 	
 ${BROWSER_FF}		Firefox
 ${DELAY}            2
 ${TIMEOUT}          10
@@ -18,7 +18,8 @@ ${MUSIC}		//*[@id="homeTab"]/div/div[1]/div[2]/div/div[2]/div/div[1]
 ${PLAYLISTS}	//*[@id="homeTab"]/div/div[1]/div[2]/div/div[3]/div/div[1]
 ${TVSHOWS}		//*[@id="homeTab"]/div/div[1]/div[2]/div/div[4]/div/div[1]
 #----MUSIC PLAYLISTS 
-${PROMO}	xpath=//*[contains(text(),'Promo')] 
+#${PROMO}	xpath=//*[contains(text(),'Promo')]
+${PROMO}	//*[@id="albumsTab"]/div[3]/div[1]/div/div[2]/div[1]/button 
 #----ACTIONS  
 ${SHUFFLE}    xpath=//*[contains(text(),'Shuffle')]
 ${PLAYBACKERROR}    xpath=//*[contains(text(),'Got It')]

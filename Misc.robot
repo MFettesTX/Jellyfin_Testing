@@ -19,7 +19,7 @@ Click Playlists
 	Playlists     
 	
 Click Promo playlist 
-	Promo
+	PROMO
 
 Click Shuffle control 
     Shuffle
