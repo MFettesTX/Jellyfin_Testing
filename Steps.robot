@@ -20,10 +20,9 @@ Open browser to website
 
 Enter credentials
 	Wait until element is visible	${USERNAME}
-	Input text	//*[@id="txtManualName"]	${USER}
+	Input text	//*[@id="txtManualName"]	${USER}		--disable-notifications 
 	Click element	${SIGN_IN}
 
-	
 Playlists
 	Wait until element is visible	${PLAYLISTS}	
 	Click Element	${PLAYLISTS}
